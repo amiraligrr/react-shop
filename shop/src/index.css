@@ -1,0 +1,142 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'Vazir-FD-WOL.woff';
+    src: url(./font/Vazir-FD-WOL.woff);
+}
+.body{
+
+  overflow-x: hidden;
+
+
+    font-family: 'Vazir-FD-WOL.woff';
+}
+body {
+  background: #0d0d0d;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* استایل‌های هدر */
+.header {
+  @apply fixed top-0 left-0 w-full bg-gray-900 shadow-lg z-50;
+}
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.discounted-price {
+  color: #ef4444;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.discount-badge {
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.header-container {
+  @apply container mx-auto px-4 py-3 flex items-center justify-between;
+}
+
+.logo {
+  @apply text-2xl font-bold text-blue-400;
+}
+
+.nav-links {
+  @apply hidden md:flex space-x-6;
+}
+
+.nav-link {
+  @apply text-white hover:text-blue-400 transition-colors duration-200;
+}
+
+.auth-buttons {
+  @apply flex items-center space-x-4;
+}
+
+.login-btn {
+  @apply bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded text-white transition-colors duration-200;
+}
+
+.register-btn {
+  @apply bg-green-500 hover:bg-green-600 px-4 py-2 rounded text-white transition-colors duration-200;
+}
+
+/* استایل‌های کاروسل */
+.carousel-container {
+  @apply mt-20 flex justify-center items-center min-h-screen;
+}
+
+.carousel {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  perspective: 800px;
+  margin: 0 auto;
+  padding-top: 5rem
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s ease;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  margin: -150px 0 0 -125px;
+  background: #1e1e1e;
+  border-radius: 15px;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel-item h3 {
+  margin: 8px 0;
+  font-size: 1.1rem;
+  color: #03e9f4;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel-item p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 5px 0;
+}
