@@ -87,5 +87,5 @@ src/
 ├─ index.css        # TailwindCSS styles
 📄 License
 This project is licensed under the ISC License.
-
-Made with ❤️ by Amirali Granmayeh
+```
+------------------------------------------------------------------------------------------------------------- Made with ❤️ by Amirali Granmayeh ----------------------------------------------------------------------------------------------------------
