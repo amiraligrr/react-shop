@@ -3,7 +3,14 @@
 This is a React shop project made by Amirali Granmayeh.  
 It features a responsive landing page, shopping cart, product details, and account management with API integration.  
 
-[Live Demo](https://amiraligrr.ir/shop/)
+🔗 **Live Demo**  
+👉 https://amiraligrr.ir/todo
+
+> ⚠️ **Important**
+> The backend (`json-server`) is **not running** on the live demo.
+> Only the **Login page** and **Main UI** are accessible.
+>After entering the address, click on one of the links, such as Home, to load the page. Due to hosting problems, you must click on one of the links in the header once.
+---
 
 ---
 
