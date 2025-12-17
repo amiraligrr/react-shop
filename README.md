@@ -3,7 +3,7 @@
 This is a React shop project made by Amirali Granmayeh.  
 It features a responsive landing page, shopping cart, product details, and account management with API integration.  
 
-[Live Demo]([https://amiraligrr.github.io/react-shop](https://amiraligrr.ir/shop/))
+[Live Demo](https://amiraligrr.ir/shop/)
 
 ---
 
